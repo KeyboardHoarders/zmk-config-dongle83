@@ -1,0 +1,11 @@
+file_format: "1"
+id: dongle83
+name: Dongle83
+type: shield
+url: https://github.com/SlingThat/zmk-config-dongle83
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - dongle83

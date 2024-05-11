@@ -3,6 +3,3 @@
 
 config SHIELD_DONGLE83
 	def_bool $(shields_list_contains,dongle83)
-
-config SHIELD_DONGLE83_DONGLE
-	def_bool $(shields_list_contains,dongle83_dongle)
