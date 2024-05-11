@@ -7,14 +7,9 @@
     combos {
         compatible = "zmk,combos";
 
-        back {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <19 20>;
-        };
-
-        escape {
-            bindings = <&kp ESCAPE>;
-            key-positions = <13 29>;
+        bootloader {
+            bindings = <&bootloader>;
+            key-positions = <76 81 71>;
         };
     };
 
