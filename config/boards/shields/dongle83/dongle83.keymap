@@ -3,6 +3,9 @@
 
 #define BASE 0
 
+&lt { quick_tap_ms = <220>; };
+&mt { quick_tap_ms = <220>; };
+
 / {
     combos {
         compatible = "zmk,combos";
